@@ -1,0 +1,211 @@
+* {
+	margin: 0px;
+	padding : 0px;
+}
+
+.header {
+	height:50px;
+	width:100%;
+	background-color: #7FFFD4;
+	font-family: 'Catamaran', sans-serif;
+}
+
+.logo {
+	float:left;
+	height:100%;
+	text-align:center;
+	font-weight:bold;
+	width: 450px;
+    
+	display:inline-block;
+	
+	
+}
+#logo-span {
+	font-family: 'Lobster', cursive;
+	color:red;
+	
+}
+.meni {
+		padding: 0px;
+		float:left;
+		height:100%;
+		font-weight:bold;
+		width: 400px;
+    	display:inline-block;
+}
+.meni ul {
+	height:100%;
+	list-style-type:none;
+}
+.meni ul li {
+	height:100%;
+	float:left;
+	
+}
+.meni ul li a {
+	padding-top: 10px;
+	padding-left: 5px;
+	height:100%;
+	color:black;
+	display:block;
+	text-decoration:none;
+}
+.meni ul li a:hover {
+	height: 80%;
+	background-color:#7FFF00;
+}
+
+.reg-meni {
+	padding: 0px;
+	height:100%;
+	float:right;
+	font-weight:bold;
+	width: 200px;
+    display:inline-block;
+}
+.reg-meni ul {
+	
+	height:100%;
+	list-style-type:none;
+	/* defolt lista(bez tacaka, brise sve, normalna lista) */
+	
+}
+.reg-meni ul li {
+	height:100%;
+	text-align:right;
+	float:right;
+
+}
+.reg-meni ul li a {
+	height:100%;
+	color:black;
+	display:block;
+	text-decoration:none;
+		padding-top: 10px;
+	padding-left: 5px;
+}
+
+.reg-meni ul li a:hover {
+	height: 80%;
+	background-color:#7FFF00;
+}
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+.container-hero {
+	background-size: cover;
+	height: 50vh;
+	background-image: url('hakerslika.jpg');
+	margin-top: 15px;
+	margin-bottom: 25px;
+	
+}
+.container-hero h1 {
+		font-family: 'Lobster', cursive;
+	color: red;
+	font-size: 50px;
+	
+}
+.hero-text {
+	padding-left: 60px;
+	width: 500px;
+	padding-top: 30vh;
+}
+.container-hero h1 span {
+	background-color: black;
+	color:white;
+	margin-left: 0px;
+	padding: 0 15px;
+}
+.container-proizvod {
+	width: 380px;
+	float:left;
+	margin-left: 20px;
+	
+	
+}
+
+.container-proizvod img {
+	display:block;
+	margin: 0 auto;
+	width: 200px;
+	height: 180px;
+}
+
+.proizvod-slika {
+	width:inherit;
+	height:200px;
+}
+.info-proizvod {
+	border-radius: 15%;
+	margin-bottom: 10px;
+	width: 350px;
+	text-align: center;
+	padding: 10px;
+	font-size: 18px;
+	background-color: #7FFFD4;
+}
+.cena-proizvod  {
+	font-weight: bold;
+	 color: #006400;
+	font-size: 22px;
+	margin-left: 25px;
+	display: inline;
+}
+.dugme-detalji {
+	font-family: 'Lobster', cursive;
+	text-decoration:none;	
+	padding: 5px;
+	color: yellow;
+	background-color: black;
+	margin-right: 25px;
+	display: inline;
+	width:auto;
+	float: right;
+}
+.footer {
+	
+	background-color: gray;
+	margin-top: 25px;
+}
+.footer-logo {
+	font-weight: bold;
+	width: 300px;
+	height:100%;
+	text-align:center;
+	font-weight:bold;
+	width: 33%;   
+	display:inline-block;
+}
+#footer-span {
+	font-family: 'Lobster', cursive;
+	color:red;
+	
+}
+.footer-left {
+	float: left;
+	display:inline-block;
+	width: 33%;
+	height: 100%;
+}
+.footer-right {
+	display:inline-block;
+	float: right;
+	width: 33%;
+	text-align:right;
+}
+.footer-left ul {
+	display: inline-block;
+}
+.footer-right ul {
+	list-style-type: none;
+	display:inline-block;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
